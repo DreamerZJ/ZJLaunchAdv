@@ -48,6 +48,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0282E4101FFE28730094CC00 /* ZJLaunchAdv */ = {
+			isa = PBXGroup;
+			children = (
+				028CAB671FFCA83A006F216E /* ZJLaunchAdv.h */,
+				028CAB681FFCA83A006F216E /* ZJLaunchAdv.m */,
+				028CAB691FFCA83A006F216E /* ZJProxy.h */,
+				028CAB661FFCA83A006F216E /* ZJProxy.m */,
+			);
+			path = ZJLaunchAdv;
+			sourceTree = "<group>";
+		};
 		028CAB441FFC88F6006F216E = {
 			isa = PBXGroup;
 			children = (
@@ -69,10 +80,7 @@
 		028CAB4F1FFC88F6006F216E /* ZJLaunchAdv */ = {
 			isa = PBXGroup;
 			children = (
-				028CAB671FFCA83A006F216E /* ZJLaunchAdv.h */,
-				028CAB681FFCA83A006F216E /* ZJLaunchAdv.m */,
-				028CAB691FFCA83A006F216E /* ZJProxy.h */,
-				028CAB661FFCA83A006F216E /* ZJProxy.m */,
+				0282E4101FFE28730094CC00 /* ZJLaunchAdv */,
 				028CAB501FFC88F6006F216E /* AppDelegate.h */,
 				028CAB511FFC88F6006F216E /* AppDelegate.m */,
 				028CAB531FFC88F6006F216E /* ViewController.h */,
