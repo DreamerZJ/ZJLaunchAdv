@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028CAB521FFC88F6006F216E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 028CAB511FFC88F6006F216E /* AppDelegate.m */; };
+		028CAB551FFC88F6006F216E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 028CAB541FFC88F6006F216E /* ViewController.m */; };
+		028CAB581FFC88F6006F216E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028CAB561FFC88F6006F216E /* Main.storyboard */; };
+		028CAB5A1FFC88F6006F216E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028CAB591FFC88F6006F216E /* Assets.xcassets */; };
+		028CAB601FFC88F6006F216E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 028CAB5F1FFC88F6006F216E /* main.m */; };
+		028CAB6A1FFCA83B006F216E /* ZJProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 028CAB661FFCA83A006F216E /* ZJProxy.m */; };
+		028CAB6B1FFCA83B006F216E /* ZJLaunchImageAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 028CAB681FFCA83A006F216E /* ZJLaunchImageAdView.m */; };
+		F647BA55FBF031AA7833E651 /* libPods-ZJLaunchAdv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F209E1A4386B3E34671DE59A /* libPods-ZJLaunchAdv.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		028CAB4D1FFC88F6006F216E /* ZJLaunchAdv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJLaunchAdv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		028CAB501FFC88F6006F216E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		028CAB511FFC88F6006F216E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		028CAB531FFC88F6006F216E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		028CAB541FFC88F6006F216E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		028CAB571FFC88F6006F216E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		028CAB591FFC88F6006F216E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		028CAB5E1FFC88F6006F216E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		028CAB5F1FFC88F6006F216E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		028CAB661FFCA83A006F216E /* ZJProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJProxy.m; sourceTree = "<group>"; };
+		028CAB671FFCA83A006F216E /* ZJLaunchImageAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJLaunchImageAdView.h; sourceTree = "<group>"; };
+		028CAB681FFCA83A006F216E /* ZJLaunchImageAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJLaunchImageAdView.m; sourceTree = "<group>"; };
+		028CAB691FFCA83A006F216E /* ZJProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJProxy.h; sourceTree = "<group>"; };
+		4D1AA70CEC784EB3AD0BDA06 /* Pods-ZJLaunchAdv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJLaunchAdv.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJLaunchAdv/Pods-ZJLaunchAdv.debug.xcconfig"; sourceTree = "<group>"; };
+		6A5BA2133FC21A4121F4DA07 /* Pods-ZJLaunchAdv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJLaunchAdv.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJLaunchAdv/Pods-ZJLaunchAdv.release.xcconfig"; sourceTree = "<group>"; };
+		F209E1A4386B3E34671DE59A /* libPods-ZJLaunchAdv.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJLaunchAdv.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		028CAB4A1FFC88F6006F216E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F647BA55FBF031AA7833E651 /* libPods-ZJLaunchAdv.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		028CAB441FFC88F6006F216E = {
+			isa = PBXGroup;
+			children = (
+				028CAB4F1FFC88F6006F216E /* ZJLaunchAdv */,
+				028CAB4E1FFC88F6006F216E /* Products */,
+				C5AF5F44A695C2FE6984DB56 /* Pods */,
+				FD0A95B69D6E671495863607 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		028CAB4E1FFC88F6006F216E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				028CAB4D1FFC88F6006F216E /* ZJLaunchAdv.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		028CAB4F1FFC88F6006F216E /* ZJLaunchAdv */ = {
+			isa = PBXGroup;
+			children = (
+				028CAB6C1FFCA842006F216E /* ZJLaunchImageAdv */,
+				028CAB501FFC88F6006F216E /* AppDelegate.h */,
+				028CAB511FFC88F6006F216E /* AppDelegate.m */,
+				028CAB531FFC88F6006F216E /* ViewController.h */,
+				028CAB541FFC88F6006F216E /* ViewController.m */,
+				028CAB561FFC88F6006F216E /* Main.storyboard */,
+				028CAB591FFC88F6006F216E /* Assets.xcassets */,
+				028CAB5E1FFC88F6006F216E /* Info.plist */,
+				028CAB5F1FFC88F6006F216E /* main.m */,
+			);
+			path = ZJLaunchAdv;
+			sourceTree = "<group>";
+		};
+		028CAB6C1FFCA842006F216E /* ZJLaunchImageAdv */ = {
+			isa = PBXGroup;
+			children = (
+				028CAB671FFCA83A006F216E /* ZJLaunchImageAdView.h */,
+				028CAB681FFCA83A006F216E /* ZJLaunchImageAdView.m */,
+				028CAB691FFCA83A006F216E /* ZJProxy.h */,
+				028CAB661FFCA83A006F216E /* ZJProxy.m */,
+			);
+			path = ZJLaunchImageAdv;
+			sourceTree = "<group>";
+		};
+		C5AF5F44A695C2FE6984DB56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D1AA70CEC784EB3AD0BDA06 /* Pods-ZJLaunchAdv.debug.xcconfig */,
+				6A5BA2133FC21A4121F4DA07 /* Pods-ZJLaunchAdv.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD0A95B69D6E671495863607 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F209E1A4386B3E34671DE59A /* libPods-ZJLaunchAdv.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		028CAB4C1FFC88F6006F216E /* ZJLaunchAdv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028CAB631FFC88F6006F216E /* Build configuration list for PBXNativeTarget "ZJLaunchAdv" */;
+			buildPhases = (
+				9BD68CD7547B9A068096EC5C /* [CP] Check Pods Manifest.lock */,
+				028CAB491FFC88F6006F216E /* Sources */,
+				028CAB4A1FFC88F6006F216E /* Frameworks */,
+				028CAB4B1FFC88F6006F216E /* Resources */,
+				1C5EB0C0BA193556427BE04D /* [CP] Embed Pods Frameworks */,
+				7F331B8BECB47BB02B431B2D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJLaunchAdv;
+			productName = ZJLaunchAdv;
+			productReference = 028CAB4D1FFC88F6006F216E /* ZJLaunchAdv.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		028CAB451FFC88F6006F216E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = zhangjian;
+				TargetAttributes = {
+					028CAB4C1FFC88F6006F216E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 028CAB481FFC88F6006F216E /* Build configuration list for PBXProject "ZJLaunchAdv" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 028CAB441FFC88F6006F216E;
+			productRefGroup = 028CAB4E1FFC88F6006F216E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				028CAB4C1FFC88F6006F216E /* ZJLaunchAdv */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		028CAB4B1FFC88F6006F216E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028CAB5A1FFC88F6006F216E /* Assets.xcassets in Resources */,
+				028CAB581FFC88F6006F216E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C5EB0C0BA193556427BE04D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJLaunchAdv/Pods-ZJLaunchAdv-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F331B8BECB47BB02B431B2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJLaunchAdv/Pods-ZJLaunchAdv-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BD68CD7547B9A068096EC5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZJLaunchAdv-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		028CAB491FFC88F6006F216E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028CAB551FFC88F6006F216E /* ViewController.m in Sources */,
+				028CAB6B1FFCA83B006F216E /* ZJLaunchImageAdView.m in Sources */,
+				028CAB601FFC88F6006F216E /* main.m in Sources */,
+				028CAB6A1FFCA83B006F216E /* ZJProxy.m in Sources */,
+				028CAB521FFC88F6006F216E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		028CAB561FFC88F6006F216E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				028CAB571FFC88F6006F216E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		028CAB611FFC88F6006F216E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		028CAB621FFC88F6006F216E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		028CAB641FFC88F6006F216E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D1AA70CEC784EB3AD0BDA06 /* Pods-ZJLaunchAdv.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4424BG7V23;
+				INFOPLIST_FILE = ZJLaunchAdv/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.net.comsys.ZJLaunchAdv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		028CAB651FFC88F6006F216E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5BA2133FC21A4121F4DA07 /* Pods-ZJLaunchAdv.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4424BG7V23;
+				INFOPLIST_FILE = ZJLaunchAdv/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.net.comsys.ZJLaunchAdv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		028CAB481FFC88F6006F216E /* Build configuration list for PBXProject "ZJLaunchAdv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028CAB611FFC88F6006F216E /* Debug */,
+				028CAB621FFC88F6006F216E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		028CAB631FFC88F6006F216E /* Build configuration list for PBXNativeTarget "ZJLaunchAdv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028CAB641FFC88F6006F216E /* Debug */,
+				028CAB651FFC88F6006F216E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 028CAB451FFC88F6006F216E /* Project object */;
+}
