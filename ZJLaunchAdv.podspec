@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ZJLaunchAdv"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "easy to add launchAdv"
   s.homepage     = "https://github.com/DreamerZJ/ZJLaunchAdv.git"
   s.license      = "MIT"
