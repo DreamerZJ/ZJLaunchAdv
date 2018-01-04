@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ZJLaunchImageAdView.h"
+#import "ZJLaunchAdv.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +20,7 @@
     // Override point for customization after application launch.
     
     [self.window makeKeyAndVisible];
-    ZJLaunchImageAdView *adview = [ZJLaunchImageAdView zjLaunchImageView:^(ZJAdConfiguration *configuration) {
+    ZJLaunchAdv *adview = [ZJLaunchAdv zjLaunchImageView:^(ZJAdConfiguration *configuration) {
         
         configuration.adImageUrl = @"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1514888829314&di=4588cc130055455689d5312922f59704&imgtype=0&src=http%3A%2F%2Fc.hiphotos.baidu.com%2Fexp%2Fw%3D500%2Fsign%3D347c8932f2246b607b0eb274dbf91a35%2Fac345982b2b7d0a28681d3fccfef76094b369a03.jpg";
         configuration.adtype = ZJAdTypeLogo;

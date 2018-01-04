@@ -13,7 +13,7 @@
 		028CAB5A1FFC88F6006F216E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028CAB591FFC88F6006F216E /* Assets.xcassets */; };
 		028CAB601FFC88F6006F216E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 028CAB5F1FFC88F6006F216E /* main.m */; };
 		028CAB6A1FFCA83B006F216E /* ZJProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 028CAB661FFCA83A006F216E /* ZJProxy.m */; };
-		028CAB6B1FFCA83B006F216E /* ZJLaunchImageAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 028CAB681FFCA83A006F216E /* ZJLaunchImageAdView.m */; };
+		028CAB6B1FFCA83B006F216E /* ZJLaunchAdv.m in Sources */ = {isa = PBXBuildFile; fileRef = 028CAB681FFCA83A006F216E /* ZJLaunchAdv.m */; };
 		F647BA55FBF031AA7833E651 /* libPods-ZJLaunchAdv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F209E1A4386B3E34671DE59A /* libPods-ZJLaunchAdv.a */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +28,8 @@
 		028CAB5E1FFC88F6006F216E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		028CAB5F1FFC88F6006F216E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		028CAB661FFCA83A006F216E /* ZJProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJProxy.m; sourceTree = "<group>"; };
-		028CAB671FFCA83A006F216E /* ZJLaunchImageAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJLaunchImageAdView.h; sourceTree = "<group>"; };
-		028CAB681FFCA83A006F216E /* ZJLaunchImageAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJLaunchImageAdView.m; sourceTree = "<group>"; };
+		028CAB671FFCA83A006F216E /* ZJLaunchAdv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJLaunchAdv.h; sourceTree = "<group>"; };
+		028CAB681FFCA83A006F216E /* ZJLaunchAdv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJLaunchAdv.m; sourceTree = "<group>"; };
 		028CAB691FFCA83A006F216E /* ZJProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJProxy.h; sourceTree = "<group>"; };
 		4D1AA70CEC784EB3AD0BDA06 /* Pods-ZJLaunchAdv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJLaunchAdv.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJLaunchAdv/Pods-ZJLaunchAdv.debug.xcconfig"; sourceTree = "<group>"; };
 		6A5BA2133FC21A4121F4DA07 /* Pods-ZJLaunchAdv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJLaunchAdv.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJLaunchAdv/Pods-ZJLaunchAdv.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,7 +69,10 @@
 		028CAB4F1FFC88F6006F216E /* ZJLaunchAdv */ = {
 			isa = PBXGroup;
 			children = (
-				028CAB6C1FFCA842006F216E /* ZJLaunchImageAdv */,
+				028CAB671FFCA83A006F216E /* ZJLaunchAdv.h */,
+				028CAB681FFCA83A006F216E /* ZJLaunchAdv.m */,
+				028CAB691FFCA83A006F216E /* ZJProxy.h */,
+				028CAB661FFCA83A006F216E /* ZJProxy.m */,
 				028CAB501FFC88F6006F216E /* AppDelegate.h */,
 				028CAB511FFC88F6006F216E /* AppDelegate.m */,
 				028CAB531FFC88F6006F216E /* ViewController.h */,
@@ -80,17 +83,6 @@
 				028CAB5F1FFC88F6006F216E /* main.m */,
 			);
 			path = ZJLaunchAdv;
-			sourceTree = "<group>";
-		};
-		028CAB6C1FFCA842006F216E /* ZJLaunchImageAdv */ = {
-			isa = PBXGroup;
-			children = (
-				028CAB671FFCA83A006F216E /* ZJLaunchImageAdView.h */,
-				028CAB681FFCA83A006F216E /* ZJLaunchImageAdView.m */,
-				028CAB691FFCA83A006F216E /* ZJProxy.h */,
-				028CAB661FFCA83A006F216E /* ZJProxy.m */,
-			);
-			path = ZJLaunchImageAdv;
 			sourceTree = "<group>";
 		};
 		C5AF5F44A695C2FE6984DB56 /* Pods */ = {
@@ -235,7 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				028CAB551FFC88F6006F216E /* ViewController.m in Sources */,
-				028CAB6B1FFCA83B006F216E /* ZJLaunchImageAdView.m in Sources */,
+				028CAB6B1FFCA83B006F216E /* ZJLaunchAdv.m in Sources */,
 				028CAB601FFC88F6006F216E /* main.m in Sources */,
 				028CAB6A1FFCA83B006F216E /* ZJProxy.m in Sources */,
 				028CAB521FFC88F6006F216E /* AppDelegate.m in Sources */,

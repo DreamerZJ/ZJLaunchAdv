@@ -9,4 +9,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/DreamerZJ/ZJLaunchAdv.git", :tag => s.version }
   s.source_files = 'ZJLaunchAdv', 'ZJLaunchAdv/**/*.{h,m}'
   s.requires_arc = true
+  s.dependency 'SDWebImage', '~> 4.2.2'
+  s.dependency 'SDWebImage/GIF', '~> 4.2.2'
 end

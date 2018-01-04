@@ -48,7 +48,7 @@ typedef void(^ActionBlock)(void);
 /**结束block*/
 typedef void(^CompletionBlock)(BOOL finished);
 
-@interface ZJLaunchImageAdView : UIView
+@interface ZJLaunchAdv : UIView
 
 /**启动广告配置*/
 @property (nonatomic,strong) ZJAdConfiguration *configuration;

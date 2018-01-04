@@ -6,7 +6,7 @@
 //  Copyright © 2017年 zhangjian. All rights reserved.
 //
 
-#import "ZJLaunchImageAdView.h"
+#import "ZJLaunchAdv.h"
 #import "FLAnimatedImageView+WebCache.h"
 #import "ZJProxy.h"
 
@@ -29,7 +29,7 @@
 }
 @end
 
-@interface ZJLaunchImageAdView ()
+@interface ZJLaunchAdv ()
 
 /**倒计时*/
 @property (nonatomic,strong) dispatch_source_t timer;
@@ -46,7 +46,7 @@
 
 @end
 
-@implementation ZJLaunchImageAdView
+@implementation ZJLaunchAdv
 {
     NSTimeInterval _beginTime;
 }
@@ -67,7 +67,7 @@
                            action:(void (^)(void))action
                        completion:(void (^ _Nullable)(BOOL))completion{
     
-    ZJLaunchImageAdView *launchAdView = [[ZJLaunchImageAdView alloc]init];
+    ZJLaunchAdv *launchAdView = [[ZJLaunchAdv alloc]init];
     ZJAdConfiguration *configuration = [[ZJAdConfiguration alloc]init];
     if (configurationBlock) {
         configurationBlock(configuration);
